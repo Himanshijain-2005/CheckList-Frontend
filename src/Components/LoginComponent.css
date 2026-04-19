@@ -1,0 +1,89 @@
+/* Center entire login page */
+.Login {
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #f5f7fa;
+}
+
+/* Title */
+.Login > div:first-child {
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #2c3e50;
+}
+
+/* Form Card */
+.LoginForm {
+  background: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.1);
+  width: 300px;
+}
+
+/* Labels */
+.LoginForm label {
+  display: block;
+  font-size: 0.9rem;
+  margin-bottom: 5px;
+  color: #555;
+}
+
+/* Input fields */
+.LoginForm input {
+  width: 100%;
+  padding: 8px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  outline: none;
+  transition: 0.3s;
+}
+
+/* Input focus effect */
+.LoginForm input:focus {
+  border-color: #4CAF50;
+  box-shadow: 0 0 5px rgba(76, 175, 80, 0.3);
+}
+
+/* Button */
+.LoginForm button {
+  width: 100%;
+  padding: 10px;
+  background: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.LoginForm button:hover {
+  background: #45a049;
+}
+
+/* Success message */
+.sucessMessage {
+  background: #eafaf1;
+  color: #2ecc71;
+  padding: 10px;
+  border-radius: 6px;
+  margin-bottom: 10px;
+  width: 300px;
+  text-align: center;
+}
+
+/* Error message */
+.errorMessage {
+  background: #fdecea;
+  color: #e74c3c;
+  padding: 10px;
+  border-radius: 6px;
+  margin-bottom: 10px;
+  width: 300px;
+  text-align: center;
+}

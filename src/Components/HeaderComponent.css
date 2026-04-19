@@ -1,0 +1,137 @@
+
+/* HEADER */
+.app-header {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  background: white;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+/* Header layout */
+.header-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 0;
+}
+
+/* Logo */
+.brand {
+  font-size: 1.6rem;
+  font-weight: bold;
+  text-decoration: none;
+  color: #2c3e50;
+}
+
+/* Navigation links */
+.nav-links a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: #555;
+  font-weight: 500;
+  position: relative;
+}
+
+/* Hover effect */
+.nav-links a:hover {
+  color: #4CAF50;
+}
+
+/* Underline animation */
+.nav-links a::after {
+  content: "";
+  display: block;
+  height: 2px;
+  background: #4CAF50;
+  width: 0%;
+  transition: 0.3s;
+}
+
+.nav-links a:hover::after {
+  width: 100%;
+}
+
+/* Right side buttons */
+.auth-links a {
+  margin-left: 15px;
+  text-decoration: none;
+}
+
+/* Outline button */
+.btn-outline {
+  padding: 8px 14px;
+  border: 1px solid #4CAF50;
+  border-radius: 6px;
+  color: #4CAF50;
+  transition: 0.3s;
+}
+
+.btn-outline:hover {
+  background: #4CAF50;
+  color: white;
+}
+
+/* Logout button */
+.btn-danger {
+  padding: 8px 14px;
+  background: #e74c3c;
+  color: white;
+  border-radius: 6px;
+  transition: 0.3s;
+}
+
+.btn-danger:hover {
+  background: #c0392b;
+}
+
+
+
+/* Navigation links */
+.nav-links a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: #555;
+  font-weight: 500;
+  padding-bottom: 4px;
+  transition: 0.3s;
+}
+
+/* Hover */
+.nav-links a:hover {
+  color: #4CAF50;
+}
+
+/* ACTIVE LINK (this is key 🔥) */
+.nav-links a.active {
+  color: #4CAF50;
+  border-bottom: 2px solid #4CAF50;
+}
+
+
+
+
+/* Top row */
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Bottom nav (NEW) */
+.nav-links-bottom {
+  margin-top: 10px;
+  display: flex;
+  gap: 20px;
+}
+
+/* Style links */
+.nav-links-bottom a {
+  text-decoration: none;
+  color: #555;
+  font-weight: 500;
+}
+
+.nav-links-bottom a:hover {
+  color: #4CAF50;
+}

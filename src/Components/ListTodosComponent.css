@@ -1,0 +1,83 @@
+/* Page title */
+.container h1 {
+  margin-bottom: 20px;
+  color: #2c3e50;
+}
+
+/* Message alert (override bootstrap look) */
+.alert {
+  background-color: #eafaf1;
+  color: #2ecc71;
+  border: 1px solid #2ecc71;
+  border-radius: 6px;
+  padding: 10px;
+  margin-bottom: 15px;
+}
+
+/* Table styling */
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  background: white;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+/* Table header */
+.table thead {
+  background-color: #34495e;
+  color: white;
+}
+
+.table th {
+  padding: 12px;
+  text-align: left;
+  font-weight: 500;
+}
+
+/* Table body */
+.table td {
+  padding: 12px;
+  border-bottom: 1px solid #eee;
+}
+
+/* Row hover effect */
+.table tbody tr:hover {
+  background-color: #f9f9f9;
+}
+
+/* Buttons */
+.btn {
+  padding: 6px 12px;
+  border-radius: 6px;
+  font-size: 0.9rem;
+  border: none;
+  cursor: pointer;
+}
+
+/* Delete button */
+.btn-warning {
+  background-color: #e74c3c;
+  color: white;
+}
+
+.btn-warning:hover {
+  background-color: #c0392b;
+}
+
+/* Update button */
+.btn-success {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.btn-success:hover {
+  background-color: #45a049;
+}
+
+/* Add new todo button */
+.m-3 {
+  display: inline-block;
+  margin-top: 20px !important;
+}
