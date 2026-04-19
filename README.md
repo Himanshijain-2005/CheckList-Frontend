@@ -1,70 +1,131 @@
-# Getting Started with Create React App
+<h1>✅ Task Management Application</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p>
+This is a full-stack web application designed to help users manage daily tasks efficiently.
+It is built using <strong>React (Frontend)</strong> and <strong>Spring Boot (Backend)</strong> with secure authentication.
+</p>
 
-## Available Scripts
+<ul>
+    <li>🔐 User Authentication (Login / Logout)</li>
+    <li>📝 Create, Update, Delete Tasks</li>
+    <li>📋 View all checklist items</li>
+    <li>🌐 REST API integration</li>
+    <li>☁️ Deployed backend on Render</li>
+</ul>
 
-In the project directory, you can run:
+<h2>🛠️ Tech Stack</h2>
 
-### `npm start`
+<h3>Frontend</h3>
+<ul>
+    <li>React.js</li>
+    <li>Axios</li>
+    <li>Bootstrap (or any UI framework used)</li>
+</ul>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+<h3>Backend</h3>
+<ul>
+    <li>Spring Boot</li>
+    <li>Spring Security</li>
+    <li>REST APIs</li>
+</ul>
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+<h3>Database</h3>
+<ul>
+    <li>MySQL / H2 (update based on your project)</li>
+</ul>
 
-### `npm test`
+<h2>📁 Project Structure</h2>
+<pre>
+checklist-app/
+│
+├── frontend/        # React App
+│   ├── src/
+│   └── package.json
+│
+├── backend/         # Spring Boot App
+│   ├── src/
+│   └── pom.xml
+│
+└── README.md
+</pre>
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<h2> Backend URL </h2> https://github.com/Himanshijain-2005/CheckList
 
-### `npm run build`
+<h2>⚙️ Setup Instructions</h2>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+<h3>1️⃣ Clone the Repository</h3>
+<pre>
+git clone https://github.com/your-username/your-repo-name.git
+cd your-repo-name
+</pre>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+<h3>2️⃣ Backend Setup (Spring Boot)</h3>
+<pre>
+cd backend
+mvn clean install
+mvn spring-boot:run
+</pre>
+<p>Runs on: <strong>http://localhost:8080</strong></p>
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+<h3>3️⃣ Frontend Setup (React)</h3>
+<pre>
+cd frontend
+npm install
+npm start
+</pre>
+<p>Runs on: <strong>http://localhost:3000</strong></p>
 
-### `npm run eject`
+<h2>🌍 Deployment</h2>
+<p>Backend deployed on Render:</p>
+<pre>
+https://checklist-kdiu.onrender.com
+</pre>
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+<p>Update API base URL in React:</p>
+<pre>
+export const apiClient = axios.create({
+    baseURL: 'https://checklist-kdiu.onrender.com'
+})
+</pre>
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+<h2>🔐 Authentication</h2>
+<ul>
+    <li>Uses <strong>Spring Security (Basic Auth / JWT)</strong></li>
+    <li>Secure endpoints require valid credentials</li>
+</ul>
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+<h3> password is dummy for here </h3>
 
-## Learn More
+<h2>📸 Screenshots</h2>
+<img width="2880" height="1358" alt="image" src="https://github.com/user-attachments/assets/8813d076-0825-4576-a288-97742de664a8" />
+<img width="1816" height="1358" alt="image" src="https://github.com/user-attachments/assets/cd0b3f65-3b56-4e41-8e0a-d529973cfef7" />
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+<h2>🤝 Contributing</h2>
+<ol>
+    <li>Fork the repository</li>
+    <li>Create a new branch</li>
+    <li>Commit your changes</li>
+    <li>Push and create a Pull Request</li>
+</ol>
 
-### Code Splitting
+<h2>📌 Future Improvements</h2>
+<ul>
+    <li>🔔 Notifications / reminders</li>
+    <li>📱 Better mobile responsiveness</li>
+    <li>🔄 Real-time updates</li>
+    <li>👥 Multi-user collaboration</li>
+</ul>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+<h2>📧 Contact</h2>
+<ul>
+    <li>GitHub: https://github.com/your-username</li>
+    <li>Email: your-email@example.com</li>
+</ul>
 
-### Analyzing the Bundle Size
+<h2>⭐ Show Your Support</h2>
+<p>If you like this project, give it a ⭐ on GitHub!</p>
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+<h2>🙏 Acknowledgements</h2>
+<p>Thanks to all open-source contributors and resources that helped in building this project.</p>
